@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">作業三</string>
+    <string name="app_name">作業三：楊宸瑜</string>
     <string name="sex">性別</string>
     <string name="age">年齡</string>
     <string name="maleAgeRange1">小於30歲</string>
