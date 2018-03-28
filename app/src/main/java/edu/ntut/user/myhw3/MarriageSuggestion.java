@@ -16,34 +16,54 @@ public class MarriageSuggestion {
             switch (iAgeRange) {
                 case 1:
                     if (numFamily < 4)
+                        strSug += "趕快結婚";
+                    else if (numFamily >= 4 && numFamily <= 10)
+                        strSug += "趕快結婚";
+                    else
                         strSug += "還不急";
+                    break;
+                case 2:
+                    if (numFamily < 4)
+                        strSug += "趕快結婚";
                     else if (numFamily >= 4 && numFamily <= 10)
                         strSug += "開始找對象";
                     else
-                        strSug += "趕快結婚";
-                    break;
-                case 2:
-                    strSug += "開始找對象";
+                        strSug += "還不急";
                     break;
                 case 3:
-                    strSug += "趕快結婚";
+                    if (numFamily < 4)
+                        strSug += "開始找對象";
+                    else if (numFamily >= 4 && numFamily <= 10)
+                        strSug += "趕快結婚";
+                    else
+                        strSug += "開始找對象";
                     break;
             }
         } else {
             switch (iAgeRange) {
                 case 1:
                     if (numFamily < 4)
+                        strSug += "趕快結婚";
+                    else if (numFamily >= 4 && numFamily <= 10)
+                        strSug += "趕快結婚";
+                    else
                         strSug += "還不急";
+                    break;
+                case 2:
+                    if (numFamily < 4)
+                        strSug += "趕快結婚";
                     else if (numFamily >= 4 && numFamily <= 10)
                         strSug += "開始找對象";
                     else
-                        strSug += "趕快結婚";
-                    break;
-                case 2:
-                    strSug += "開始找對象";
+                        strSug += "還不急";
                     break;
                 case 3:
-                    strSug += "趕快結婚";
+                    if (numFamily < 4)
+                        strSug += "開始找對象";
+                    else if (numFamily >= 4 && numFamily <= 10)
+                        strSug += "趕快結婚";
+                    else
+                        strSug += "開始找對象";
                     break;
             }
         }

@@ -25,8 +25,29 @@ public class MarriageSuggestionTest {
 
     @Test
     public void testGetSuggestion() {
-        assertEquals("建議：還不急", ms.getSuggestion("male", 1, 3));
-        assertEquals("建議：開始找對象", ms.getSuggestion("male", 2, 3));
-        assertEquals("建議：趕快結婚", ms.getSuggestion("male", 3, 3));
+        assertEquals("建議：趕快結婚", ms.getSuggestion("male", 1, 3));
+        assertEquals("建議：趕快結婚", ms.getSuggestion("male", 1, 8));
+        assertEquals("建議：還不急", ms.getSuggestion("male", 1, 12));
+
+        assertEquals("建議：趕快結婚", ms.getSuggestion("male", 2, 3));
+        assertEquals("建議：開始找對象", ms.getSuggestion("male", 2, 8));
+        assertEquals("建議：還不急", ms.getSuggestion("male", 2, 12));
+
+        assertEquals("建議：開始找對象", ms.getSuggestion("male", 3, 3));
+        assertEquals("建議：趕快結婚", ms.getSuggestion("male", 3, 8));
+        assertEquals("建議：開始找對象", ms.getSuggestion("male", 3, 12));
+
+
+        assertEquals("建議：趕快結婚", ms.getSuggestion("female", 1, 3));
+        assertEquals("建議：趕快結婚", ms.getSuggestion("female", 1, 8));
+        assertEquals("建議：還不急", ms.getSuggestion("female", 1, 12));
+
+        assertEquals("建議：趕快結婚", ms.getSuggestion("female", 2, 3));
+        assertEquals("建議：開始找對象", ms.getSuggestion("female", 2, 8));
+        assertEquals("建議：還不急", ms.getSuggestion("female", 2, 12));
+
+        assertEquals("建議：開始找對象", ms.getSuggestion("female", 3, 3));
+        assertEquals("建議：趕快結婚", ms.getSuggestion("female", 3, 8));
+        assertEquals("建議：開始找對象", ms.getSuggestion("female", 3, 12));
     }
 }
