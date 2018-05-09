@@ -1,4 +1,4 @@
-#Wed Apr 25 22:23:28 CST 2018
-base.0=/Users/laluma/Desktop/android/HW6/app/build/intermediates/transforms/dexMerger/debug/0
+#Wed May 09 23:04:21 CST 2018
+base.0=/Users/laluma/Desktop/android/HW7/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex
