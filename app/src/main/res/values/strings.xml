@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">作業八：楊宸瑜</string>
+    <string-array name="item_list">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+    </string-array>
+</resources>
